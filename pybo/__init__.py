@@ -15,7 +15,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
 
     #app.config.from_object(config)
-
+    # dd
     #ORM 연결 메서드
     db.init_app(app)
     migrate.init_app(app, db)
